@@ -8,7 +8,7 @@
         {
             int goldForKill = 1023;
 
-            Console.WriteLine("You have killed the Giant IE6 Monster and gained {0} gold!", goldForKill);
+            Console.WriteLine($"You have killed the Giant IE6 Monster and gained {goldForKill} gold!");
 
             var joe = new Person { Name = "Joe" };
             var jake = new Person { Name = "Jake" };
@@ -18,24 +18,24 @@
             var oldBob = new Person { Name = "Old Bob" };
             var newBob = new Person { Name = "New Bob" };
 
-            var bobs = new Group
+            var NoobPlayers = new Group
             {
                 Members = { oldBob, newBob }
             };
 
-            var developers = new Group
+            var ExperiencedPlayers = new Group
             {
                 Name = "Developers",
-                Members = { joe, jake, emily, bobs }
+                Members = { joe, jake, emily, NoobPlayers }
             };
 
-            var parties = new Group
+            var TopPlayers = new Group
             {
-                Members = { developers, sophia, brian }
+                Members = { ExperiencedPlayers, sophia, brian }
             };
 
-            parties.Gold += goldForKill;
-            parties.Stats();
+            TopPlayers.Gold += goldForKill;
+            TopPlayers.Stats();
 
             Console.ReadKey();
         }

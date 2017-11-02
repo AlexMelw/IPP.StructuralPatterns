@@ -9,7 +9,7 @@
 
         public void Stats()
         {
-            Console.WriteLine("{0} has {1} gold coins.", Name, Gold);
+            Console.WriteLine($"{Name} has {Gold} gold coins.");
         }
     }
 }

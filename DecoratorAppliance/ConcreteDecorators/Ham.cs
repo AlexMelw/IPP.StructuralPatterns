@@ -17,7 +17,7 @@ namespace DecoratorAppliance.ConcreteDecorators
 
         public override string GetDescription()
         {
-            return string.Format("{0}, {1}", _pizza.GetDescription(), Description);
+            return $"{_pizza.GetDescription()}, {Description}";
         }
 
         public override double CalculateCost()
