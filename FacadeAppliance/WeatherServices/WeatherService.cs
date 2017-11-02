@@ -4,7 +4,7 @@
     {
         public double GetTempFarenheit(double latitude, double longitude)
         {
-            return 86.5;
+            return 41.8;
         }
     }
 }

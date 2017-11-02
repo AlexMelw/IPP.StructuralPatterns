@@ -7,16 +7,13 @@
     {
         static void Main(string[] args)
         {
-            const string zipCode = "83714";
+            const string zipCode = "2002"; // Chisinau, Botanica
 
             var temperatureFacade = new TemperatureLookupFacade();
             LocalTemperature localTemp = temperatureFacade.GetTemperature(zipCode);
 
-            Console.WriteLine("The current temperature is {0}F/{1}C. in {2}, {3}",
-                localTemp.Farenheit.ToString("F1"),
-                localTemp.Celcius.ToString("F1"),
-                localTemp.City,
-                localTemp.State);
+            Console.WriteLine($"The current temperature is {localTemp.Farenheit:F1}(F) / {localTemp.Celcius:F1}(C) " +
+                              $"in {localTemp.City}, {localTemp.State}");
         }
     }
 }

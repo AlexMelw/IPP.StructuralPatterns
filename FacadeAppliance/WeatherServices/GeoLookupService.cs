@@ -4,7 +4,7 @@ namespace FacadeAppliance.WeatherServices
     {
         public Coordinates GetCoordinatesForZipCode(string zipCode)
         {
-            return new Coordinates()
+            return new Coordinates
             {
                 Latitude = 43.676422,
                 Longitude = -116.278025
@@ -13,12 +13,12 @@ namespace FacadeAppliance.WeatherServices
 
         public string GetCityForZipCode(string zipCode)
         {
-            return "Boise";
+            return "Chisinau";
         }
 
         public string GetStateForZipCode(string zipCode)
         {
-            return "Idaho";
+            return "Republic of Moldova";
         }
 
         public class Coordinates

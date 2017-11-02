@@ -4,9 +4,9 @@ namespace FacadeAppliance.TemperatureFacade
 
     public class TemperatureLookupFacade
     {
-        readonly WeatherService weatherService;
-        readonly GeoLookupService geoLookupService;
-        readonly EnglishMetricConverter converter;
+        readonly WeatherService _weatherService;
+        readonly GeoLookupService _geoLookupService;
+        readonly EnglishMetricConverter _converter;
 
         #region CONSTRUCTORS
 
@@ -16,26 +16,26 @@ namespace FacadeAppliance.TemperatureFacade
         public TemperatureLookupFacade(WeatherService weatherService, GeoLookupService geoLookupService,
             EnglishMetricConverter englishMetricConverter)
         {
-            this.weatherService = weatherService;
-            this.geoLookupService = geoLookupService;
-            converter = englishMetricConverter;
+            _weatherService = weatherService;
+            _geoLookupService = geoLookupService;
+            _converter = englishMetricConverter;
         }
 
         #endregion
 
         public LocalTemperature GetTemperature(string zipCode)
         {
-            var coords = geoLookupService.GetCoordinatesForZipCode(zipCode);
-            var city = geoLookupService.GetCityForZipCode(zipCode);
-            var state = geoLookupService.GetStateForZipCode(zipCode);
+            var coords = _geoLookupService.GetCoordinatesForZipCode(zipCode);
+            var city = _geoLookupService.GetCityForZipCode(zipCode);
+            var state = _geoLookupService.GetStateForZipCode(zipCode);
 
-            var farenheit = weatherService.GetTempFarenheit(coords.Latitude, coords.Longitude);
-            var celcius = converter.FarenheitToCelcious(farenheit);
+            var fahrenheit = _weatherService.GetTempFarenheit(coords.Latitude, coords.Longitude);
+            var celsius = _converter.FarenheitToCelcious(fahrenheit);
 
-            var localTemperature = new LocalTemperature()
+            var localTemperature = new LocalTemperature
             {
-                Farenheit = farenheit,
-                Celcius = celcius,
+                Farenheit = fahrenheit,
+                Celcius = celsius,
                 City = city,
                 State = state
             };
