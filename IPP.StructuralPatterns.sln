@@ -13,6 +13,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeAppliance", "Compo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeAppliance", "FacadeAppliance\FacadeAppliance.csproj", "{3641215C-7F17-4317-B950-20B8ABED56B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyAppliance", "ProxyAppliance\ProxyAppliance.csproj", "{BC9613CE-6406-4C24-8C56-463804FCD871}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9E75BEFB-4941-4A93-90EE-12A7C49FE3F3} = {9E75BEFB-4941-4A93-90EE-12A7C49FE3F3}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfDataService", "WcfDataService\WcfDataService.csproj", "{9E75BEFB-4941-4A93-90EE-12A7C49FE3F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +46,14 @@ Global
 		{3641215C-7F17-4317-B950-20B8ABED56B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3641215C-7F17-4317-B950-20B8ABED56B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3641215C-7F17-4317-B950-20B8ABED56B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC9613CE-6406-4C24-8C56-463804FCD871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9613CE-6406-4C24-8C56-463804FCD871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9613CE-6406-4C24-8C56-463804FCD871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9613CE-6406-4C24-8C56-463804FCD871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E75BEFB-4941-4A93-90EE-12A7C49FE3F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E75BEFB-4941-4A93-90EE-12A7C49FE3F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E75BEFB-4941-4A93-90EE-12A7C49FE3F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E75BEFB-4941-4A93-90EE-12A7C49FE3F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
