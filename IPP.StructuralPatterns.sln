@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterAppliance", "AdapterAppliance\AdapterAppliance.csproj", "{8746DA72-E78B-44A3-B4AB-9484E50C7BDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeAppliance", "BridgeAppliance\BridgeAppliance.csproj", "{5E71EB2B-02F0-4034-BE87-266DAF76D73C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8746DA72-E78B-44A3-B4AB-9484E50C7BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8746DA72-E78B-44A3-B4AB-9484E50C7BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8746DA72-E78B-44A3-B4AB-9484E50C7BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E71EB2B-02F0-4034-BE87-266DAF76D73C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E71EB2B-02F0-4034-BE87-266DAF76D73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E71EB2B-02F0-4034-BE87-266DAF76D73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E71EB2B-02F0-4034-BE87-266DAF76D73C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
