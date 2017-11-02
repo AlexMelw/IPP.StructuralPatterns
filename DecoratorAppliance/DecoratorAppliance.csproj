@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5E71EB2B-02F0-4034-BE87-266DAF76D73C}</ProjectGuid>
+    <ProjectGuid>{10602822-FA0D-4F95-8E92-3A06CFBBCF21}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BridgeAppliance</RootNamespace>
-    <AssemblyName>BridgeAppliance</AssemblyName>
+    <RootNamespace>DecoratorAppliance</RootNamespace>
+    <AssemblyName>DecoratorAppliance</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,21 +42,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\ClassifiedArticle.cs" />
-    <Compile Include="Formatters\BackwardsFormatter.cs" />
-    <Compile Include="Interfaces\IFormatter.cs" />
-    <Compile Include="Model\Book.cs" />
-    <Compile Include="Formatters\FancyFormatter.cs" />
-    <Compile Include="Model\FAQ.cs" />
-    <Compile Include="Interfaces\Manuscript.cs" />
+    <Compile Include="Component\Pizza.cs" />
+    <Compile Include="ConcreteComponents\LargePizza.cs" />
+    <Compile Include="ConcreteComponents\MediumPizza.cs" />
+    <Compile Include="ConcreteComponents\SmallPizza.cs" />
+    <Compile Include="ConcreteDecorators\Cheese.cs" />
+    <Compile Include="ConcreteDecorators\Ham.cs" />
+    <Compile Include="ConcreteDecorators\Peppers.cs" />
+    <Compile Include="Decorator\PizzaDecorator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Formatters\StandardFormatter.cs" />
-    <Compile Include="Model\TermPaper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
