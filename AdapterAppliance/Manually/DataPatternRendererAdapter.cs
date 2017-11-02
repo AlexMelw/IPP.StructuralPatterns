@@ -4,7 +4,7 @@ namespace AdapterAppliance.Manually
     using System.Collections.Generic;
     using System.Data;
     using System.IO;
-    using Library;
+    using Client;
 
     public class DataPatternRendererAdapter : IDataPatternRendererAdapter
     {

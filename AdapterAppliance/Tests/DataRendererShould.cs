@@ -4,7 +4,7 @@
     using System.Data.SqlClient;
     using System.IO;
     using System.Linq;
-    using Library;
+    using Client;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using Stubs;
 

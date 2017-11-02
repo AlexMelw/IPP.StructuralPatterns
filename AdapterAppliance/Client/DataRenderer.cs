@@ -1,4 +1,4 @@
-namespace AdapterAppliance.Library
+namespace AdapterAppliance.Client
 {
     using System.Data;
     using System.IO;

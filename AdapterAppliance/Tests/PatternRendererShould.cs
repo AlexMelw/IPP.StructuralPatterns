@@ -21,7 +21,6 @@ namespace AdapterAppliance.Tests
             };
 
             string result = myRenderer.ListPatterns(myList);
-
             Console.Write(result);
 
             int lineCount = result.Count(c => c == '\n');

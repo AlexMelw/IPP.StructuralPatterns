@@ -43,7 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Tests\DataRendererShould.cs" />
-    <Compile Include="Library\DataRenderer.cs" />
+    <Compile Include="Client\DataRenderer.cs" />
     <Compile Include="Manually\DataPatternRendererAdapter.cs" />
     <Compile Include="Manually\IDataPatternRendererAdapter.cs" />
     <Compile Include="Manually\Pattern.cs" />
