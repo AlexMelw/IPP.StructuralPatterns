@@ -2,16 +2,16 @@
 {
     using System.Collections.Generic;
 
-    public class Group : Party
+    public class Group : IPerson
     {
         public string Name { get; set; }
-        public List<Party> Members { get; set; }
+        public List<IPerson> Members { get; set; }
 
         #region CONSTRUCTORS
 
         public Group()
         {
-            Members = new List<Party>();
+            Members = new List<IPerson>();
         }
 
         #endregion

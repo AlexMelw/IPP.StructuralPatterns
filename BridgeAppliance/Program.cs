@@ -15,9 +15,9 @@
 
             #region Pick a proper formatter
 
-            var formatter = new StandardFormatter();
+            //var formatter = new StandardFormatter();
             //var formatter = new FancyFormatter();
-            //var formatter = new BackwardsFormatter();
+            var formatter = new BackwardsFormatter();
 
             #endregion
 

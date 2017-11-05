@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="AdapterAppliance.Manually.PatternRenderer">
+    <Position X="0.5" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIgAAAAA=</HashCode>
+      <FileName>Manually\PatternRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdapterAppliance.Manually.Pattern">
+    <Position X="11.75" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Manually\Pattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdapterAppliance.Manually.DataPatternRendererAdapter">
+    <Position X="6.25" Y="3.75" Width="3.5" />
+    <NestedTypes>
+      <Class Name="AdapterAppliance.Manually.DataPatternRendererAdapter.PatternCollectionDbAdapter" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Manually\DataPatternRendererAdapter.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Manually\DataPatternRendererAdapter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="AdapterAppliance.Manually.IDataPatternRendererAdapter">
+    <Position X="6.25" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Manually\IDataPatternRendererAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

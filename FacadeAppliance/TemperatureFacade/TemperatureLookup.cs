@@ -2,7 +2,7 @@ namespace FacadeAppliance.TemperatureFacade
 {
     using WeatherServices;
 
-    public class TemperatureLookupFacade
+    public class TemperatureLookup
     {
         readonly WeatherService _weatherService;
         readonly GeoLookupService _geoLookupService;
@@ -10,10 +10,10 @@ namespace FacadeAppliance.TemperatureFacade
 
         #region CONSTRUCTORS
 
-        public TemperatureLookupFacade()
+        public TemperatureLookup()
             : this(new WeatherService(), new GeoLookupService(), new EnglishMetricConverter()) { }
 
-        public TemperatureLookupFacade(WeatherService weatherService, GeoLookupService geoLookupService,
+        public TemperatureLookup(WeatherService weatherService, GeoLookupService geoLookupService,
             EnglishMetricConverter englishMetricConverter)
         {
             _weatherService = weatherService;

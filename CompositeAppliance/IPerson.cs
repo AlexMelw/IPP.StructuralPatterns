@@ -1,6 +1,6 @@
 namespace CompositeAppliance
 {
-    public interface Party
+    public interface IPerson
     {
         int Gold { get; set; }
         void Stats();
