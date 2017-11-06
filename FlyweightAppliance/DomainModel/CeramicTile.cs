@@ -6,7 +6,7 @@
     {
         public static int ObjectCounter = 0;
 
-        Brush paintBrush;
+        private readonly Brush _paintBrush;
 
         #region CONSTRUCTORS
 
@@ -17,7 +17,7 @@
 
         public CeramicTile()
         {
-            paintBrush = Brushes.Red;
+            _paintBrush = Brushes.Red;
 
             //X = x;
             //Y = y;
@@ -31,7 +31,7 @@
 
         public void Draw(Graphics g, int x, int y, int width, int height)
         {
-            g.FillRectangle(paintBrush, x, y, width, height);
+            g.FillRectangle(_paintBrush, x, y, width, height);
         }
     }
 }
