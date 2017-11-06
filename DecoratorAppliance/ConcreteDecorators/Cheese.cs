@@ -8,21 +8,18 @@
         #region CONSTRUCTORS
 
         public Cheese(Pizza pizza)
-            : base(pizza)
-        {
-            Description = "Cheese";
-        }
+            : base(pizza) => Description = "Cheese";
 
         #endregion
 
         public override string GetDescription()
         {
-            return $"{_pizza.GetDescription()}, {Description}";
+            return $"{Pizza.GetDescription()}, {Description}";
         }
 
         public override double CalculateCost()
         {
-            return _pizza.CalculateCost() + 1.25;
+            return Pizza.CalculateCost() + 1.25;
         }
     }
 }

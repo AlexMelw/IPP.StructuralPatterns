@@ -8,21 +8,18 @@ namespace DecoratorAppliance.ConcreteDecorators
         #region CONSTRUCTORS
 
         public Ham(Pizza pizza)
-            : base(pizza)
-        {
-            Description = "Ham";
-        }
+            : base(pizza) => Description = "Ham";
 
         #endregion
 
         public override string GetDescription()
         {
-            return $"{_pizza.GetDescription()}, {Description}";
+            return $"{Pizza.GetDescription()}, {Description}";
         }
 
         public override double CalculateCost()
         {
-            return _pizza.CalculateCost() + 1.00;
+            return Pizza.CalculateCost() + 1.00;
         }
     }
 }

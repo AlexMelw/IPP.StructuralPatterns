@@ -15,7 +15,7 @@
             largePizza = new Ham(largePizza);
             largePizza = new Peppers(largePizza);
 
-            Console.WriteLine(largePizza.GetDescription());
+            Console.WriteLine($"{largePizza.GetDescription()}.");
 
             Console.WriteLine($@"Total cost: {
                     largePizza.CalculateCost().ToString("C2", CultureInfo.CreateSpecificCulture("en-us"))

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="DecoratorAppliance.Component.Pizza">
+    <Position X="5.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Component\Pizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoratorAppliance.ConcreteComponents.LargePizza">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteComponents\LargePizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoratorAppliance.ConcreteComponents.MediumPizza">
+    <Position X="2.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteComponents\MediumPizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoratorAppliance.ConcreteComponents.SmallPizza">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteComponents\SmallPizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoratorAppliance.ConcreteDecorators.Cheese">
+    <Position X="6.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteDecorators\Cheese.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoratorAppliance.ConcreteDecorators.Ham">
+    <Position X="8.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteDecorators\Ham.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoratorAppliance.ConcreteDecorators.Peppers">
+    <Position X="4.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteDecorators\Peppers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoratorAppliance.Decorator.PizzaDecorator">
+    <Position X="6.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator\PizzaDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

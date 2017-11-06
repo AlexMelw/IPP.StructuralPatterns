@@ -4,25 +4,25 @@
 
     public class PizzaDecorator : Pizza
     {
-        protected Pizza _pizza;
+        protected readonly Pizza Pizza;
 
         #region CONSTRUCTORS
 
         public PizzaDecorator(Pizza pizza)
         {
-            _pizza = pizza;
+            Pizza = pizza;
         }
 
         #endregion
 
         public override string GetDescription()
         {
-            return _pizza.Description;
+            return Pizza.Description;
         }
 
         public override double CalculateCost()
         {
-            return _pizza.CalculateCost();
+            return Pizza.CalculateCost();
         }
     }
 }
