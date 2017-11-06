@@ -55,6 +55,7 @@
     <Compile Include="Entities\OrderDetailsEntity.cs" />
     <Compile Include="Entities\OrderEntity.cs" />
     <Compile Include="Model\Customer.cs" />
+    <Compile Include="Model\AbstractOrder.cs" />
     <Compile Include="Model\LazyOrder.cs" />
     <Compile Include="Model\Order.cs" />
     <Compile Include="Model\OrderDetails.cs" />
@@ -90,6 +91,7 @@
     <None Include="Connected Services\OrderService\WcfDataService.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="ProxyClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MSTest.TestAdapter">

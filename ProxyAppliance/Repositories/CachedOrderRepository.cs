@@ -1,5 +1,6 @@
 ﻿namespace ProxyAppliance.Repositories
 {
+    using System;
     using System.Runtime.Caching;
     using Entities;
 
